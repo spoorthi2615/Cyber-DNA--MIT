@@ -1,0 +1,70 @@
+{
+  "fold_summary": {
+    "mean": {
+      "precision": 0.8712121212121212,
+      "recall": 0.3369876978367545,
+      "f1": 0.48565302144249517,
+      "auprc": 0.6070348206921603
+    },
+    "std": {
+      "precision": 0.12517205789286595,
+      "recall": 0.06127725320435465,
+      "f1": 0.08244297794935192,
+      "auprc": 0.2629310858898592
+    }
+  },
+  "bootstrap_f1": [
+    0.5388316129769676,
+    0.2496323529411765,
+    0.8
+  ],
+  "bootstrap_auprc": [
+    0.8399090811410979,
+    0.6221918878796366,
+    0.9806972181585185
+  ],
+  "mcnemar_vs_heuristic": {
+    "statistic": 2.0,
+    "pvalue": 0.109375,
+    "table": [
+      [
+        7651,
+        8
+      ],
+      [
+        2,
+        6
+      ]
+    ]
+  },
+  "risk_tier_counts": {
+    "Low": 7597,
+    "Medium": 61,
+    "High": 9
+  },
+  "selected_features_last_fold": [
+    "usb_transfers",
+    "usb_after_hours_count",
+    "email_sent_count",
+    "email_recv_count",
+    "http_requests",
+    "http_upload_bytes",
+    "weekend_activity",
+    "idle_time_avg",
+    "role_change_flag",
+    "IDP",
+    "BC",
+    "SRC"
+  ],
+  "best_params_last_fold": {
+    "n_estimators": 291,
+    "max_depth": 7,
+    "learning_rate": 0.018226289795818324,
+    "subsample": 0.6673176938718618,
+    "colsample_bytree": 0.8308550966457845,
+    "min_child_weight": 7,
+    "gamma": 1.3490678991868137,
+    "reg_lambda": 0.3732859233370474,
+    "scale_pos_weight": 416.2662131277889
+  }
+}

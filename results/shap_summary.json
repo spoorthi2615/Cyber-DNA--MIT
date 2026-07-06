@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "usb_transfers",
+    "mean_abs_shap": 8.71207046508789
+  },
+  {
+    "feature": "SRC",
+    "mean_abs_shap": 2.983366012573242
+  },
+  {
+    "feature": "BC",
+    "mean_abs_shap": 2.431950330734253
+  },
+  {
+    "feature": "IDP",
+    "mean_abs_shap": 1.8238078355789185
+  },
+  {
+    "feature": "after_hours_logins",
+    "mean_abs_shap": 0.7486032247543335
+  },
+  {
+    "feature": "unique_workstations",
+    "mean_abs_shap": 0.3483799695968628
+  },
+  {
+    "feature": "usb_after_hours_count",
+    "mean_abs_shap": 0.21990646421909332
+  },
+  {
+    "feature": "weekend_logon_ratio",
+    "mean_abs_shap": 0.1805039644241333
+  },
+  {
+    "feature": "http_unique_domains",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "feature": "http_requests",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "feature": "usb_file_count",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "feature": "http_upload_bytes",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "feature": "idle_time_avg",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "feature": "session_duration_avg",
+    "mean_abs_shap": 0.0
+  },
+  {
+    "feature": "http_job_search_hits",
+    "mean_abs_shap": 0.0
+  }
+]
